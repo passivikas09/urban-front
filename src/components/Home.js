@@ -193,7 +193,7 @@ const customStyle={
            return(
             <div key={index} className="product-item col-lg-3 col-md-6 col-sm-6">
             <div className="image-holder">
-              <img src={"http://localhost:5000"+item.image} alt="Books" className="product-image"/>
+              <img src={"https://sangria-centipede-ring.cyclic.app"+item.image} alt="Books" className="product-image"/>
             </div>
             <div className="cart-concern">
               <div className="cart-button d-flex justify-content-between align-items-center">

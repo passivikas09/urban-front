@@ -85,7 +85,7 @@ const customStyle={
                                                 <td>{index+1}</td>
                                                 <td>{item?.name}</td>
                                                <td>{item.price}</td> 
-                                               <td><img className="object-fit-cover border rounded" src={"http://localhost:5000"+item.image} height={"100"} width={"100"}/></td>
+                                               <td><img className="object-fit-cover border rounded" src={"https://sangria-centipede-ring.cyclic.app"+item.image} height={"100"} width={"100"}/></td>
                                                <th>{item.quantity>0?item.quantity:"out of stock"}</th>
                                                <td><button onClick={()=>{deleteProduct(item._id)}} className="btn mx-auto d-block w-50 btn-danger">Delete</button></td> 
                                                <td><Link to={`/admin/product/update/${item._id}`}> <button className="btn mx-auto d-block w-50 btn-success">Edit</button></Link></td>

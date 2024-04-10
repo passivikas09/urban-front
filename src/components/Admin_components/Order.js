@@ -59,7 +59,7 @@ const [order,setorder]=useState([])
                                               <tbody>
                                               <th>
                                                 <td><p>{res.productId.name}</p></td>
-                                                <td><img src={"http://localhost:5000/"+res.productId.image} height={100} width={100}/></td>
+                                                <td><img src={"https://sangria-centipede-ring.cyclic.app/"+res.productId.image} height={100} width={100}/></td>
                                                 <td><p>GrandTotal:<b>{item.GrandTotal}</b></p></td>
                                               </th>
                                               </tbody>

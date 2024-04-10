@@ -90,7 +90,7 @@ export default function Dashboard() {
                                       <tbody>
                                       <tr key={index}>
                                         <td>{result.productId.name}</td>
-                                        <td><img src={"http://localhost:5000/"+result.productId.image}  height={100}/></td>
+                                        <td><img src={"https://sangria-centipede-ring.cyclic.app/"+result.productId.image}  height={100}/></td>
                                         <td>{item.GrandTotal}</td>
                                       </tr>
                                       </tbody>
