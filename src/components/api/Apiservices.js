@@ -1,6 +1,6 @@
 import axios from "axios"
 import qs from "qs"
-const BASE_URL="https://sangria-centipede-ring.cyclic.app/"
+const BASE_URL="https://urban.carportasd.com/"
 class ApiServices{
     getToken(){
         let obj={
