@@ -55,7 +55,7 @@ const addtocart=(id)=>{
                                 <div className="card mx-4 mb-3" style={{ maxWidth: " 400px" }}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
-                                            <img src={"http://localhost:5000" + item.productId.image} className="object-fit-cover  rounded-start" alt="products" />
+                                            <img src={"https://urban.carportasd.com/" + item.productId.image} className="object-fit-cover  rounded-start" alt="products" />
                                         </div>
                                         <div className="col-md-8">
                                             <div className="card-body">
